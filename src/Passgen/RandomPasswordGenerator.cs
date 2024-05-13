@@ -134,9 +134,8 @@ namespace Passgen
 
             Initialize();
 
-            // Generation valid if we have valid
-            _Validated = _AvailableLetters.Length > 0 && 
-                (_UseDigits || _UseUppercaseCharacters || _UseLowercaseCharacters || _UseSymbols);
+            // Validated if we have some characters for generation
+            _Validated = _AvailableLetters.Length > 0;
 
             return _Validated;
         }
