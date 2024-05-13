@@ -68,6 +68,7 @@ namespace Passgen
                 {
                     _AvailableLetters += GenerateString('!', '/');
                     _AvailableLetters += GenerateString(':', '`');
+                    _AvailableLetters += GenerateString('{', '~');
                 }
             }
         }
