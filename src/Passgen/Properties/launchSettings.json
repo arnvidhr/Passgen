@@ -2,7 +2,7 @@
   "profiles": {
     "Passgen": {
       "commandName": "Project",
-      "commandLineArgs": "6 128 duls"
+      "commandLineArgs": "6 5 duls"
     }
   }
 }

@@ -41,8 +41,10 @@
 
                 foreach (var item in list)
                 {
-                    Console.WriteLine($"{item}\r\n");
+                    Console.WriteLine($"{item}");
                 }
+
+                Console.WriteLine();
             }
             else
             {
@@ -73,13 +75,13 @@
         {
             Console.WriteLine();
             Console.WriteLine($"{STR_P} Usage: {STR_APP_NAME} [number of passwords] [length] [used symbols]");
-            Console.WriteLine();
+            Console.WriteLine($"{STR_P}");
             Console.WriteLine($"{STR_P} Where used sybols can be:");
             Console.WriteLine($"{STR_P} \td - digits");
             Console.WriteLine($"{STR_P} \tu - upper case letters");
             Console.WriteLine($"{STR_P} \tl - lower case letters");
             Console.WriteLine($"{STR_P} \ts - symbols");
-            Console.WriteLine();
+            Console.WriteLine($"{STR_P}");
         }
 
         #endregion
